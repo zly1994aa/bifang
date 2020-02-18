@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<div>
+		<div style="border-bottom: 2px solid #9D9D9D;line-height:30px;">
+			<span style="font-weight:bold;font-size:18px;display: inline-block;margin-right:29px;">持仓机构：桐柏农村商业银行</span>
+			<span>估值日期：2020-02-20</span>
+		</div>
+		<!-- <div>
 			 <el-tabs v-model="activeName" @tab-click="handleClick">
 			    <el-tab-pane label="买入" name="first"></el-tab-pane>
 			    <el-tab-pane label="卖出" name="second"> </el-tab-pane>
@@ -54,7 +58,7 @@
 					<el-button type="primary" plain>清空</el-button>
 					<el-button type="primary" >提交</el-button>
 				</div>
-			</div>
+			</div> -->
 			<div style="margin-top:20px;">
 				<span style="font-size:16px;font-weight:600;">持仓情况表</span>
 				<table class="table_list" width="100%" cellspacing="0" cellpadding="0">
@@ -194,9 +198,9 @@
 				</table>
 			</div>	
 		</div>
-		<div v-show="isShow==1">
+		<!-- <div v-show="isShow==1">
 			44444
-		</div>
+		</div> -->
 	</div>
 </template>
 

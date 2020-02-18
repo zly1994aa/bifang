@@ -5,8 +5,13 @@ import Home from '../views/Home.vue'
 Vue.use(VueRouter)
 
 const routes = [
+	{
+		path:"/",
+		name:'login',
+		component:resolve => require(['../views/login.vue'], resolve),
+	},
   {
-    path: '/',
+    path: '/home',
     name: 'Home',
     component: Home,
 	children:[

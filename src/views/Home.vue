@@ -8,7 +8,7 @@
 			 text-color="#fff" active-text-color="#ffd04b">
 				<el-menu-item index="/business">
 					<i class="el-icon-menu"></i>
-					<span slot="title">持仓交易</span>
+					<span slot="title">债券估值</span>
 				</el-menu-item>
 			</el-menu>
 			<div class="rightContainer">
