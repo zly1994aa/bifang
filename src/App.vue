@@ -24,7 +24,7 @@ export default {
    min-height:1000px;
    margin:0 auto;
  min-width:1200px; 
-   color:rgba(43,55,84,1);
+   color:#333;
    font-size:14px;
 }
 html{
@@ -69,4 +69,7 @@ div,ul,p,td,li{
 .cus{
 	cursor: pointer;
 }
+.el-select-dropdown__wrap{
+		margin-bottom:0 !important;
+	}
 </style>
